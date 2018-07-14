@@ -1,0 +1,30 @@
+{
+  "name": "user-profiling",
+  "version": "1.0.0",
+  "description": "profile user based on questions to rank the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeahJunRu/user-profiling.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Seah Jun Ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeahJunRu/user-profiling/issues"
+  },
+  "homepage": "https://github.com/SeahJunRu/user-profiling#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3"
+  }
+}
