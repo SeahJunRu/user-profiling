@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "mongodb-autoincrement": "^1.0.1",
     "mongoose": "^5.2.3"
   }
 }
